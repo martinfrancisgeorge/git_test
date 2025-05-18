@@ -1,23 +1,26 @@
-#loki1{
-width:100px;
-height:100px;
-background-color: blue;
-font-family: 'Times New Roman';
-padding-top:50px;
-font-family: 20px;
-margin-bottom:20px;
-margin-left:100px;
-
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-#loki2{
-width:100px;
-height:100px;
-background-color: red;
-font-family: Courier;
-padding-top:50px;
-font-size:20px;
-margin-top:20px;
+.container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 20px;
+      width: 1320px;
+      height: 100px;
+      background-color: aqua;
+      padding: 0 20px; /* Optional: adds spacing inside the container */
+    }
 
-}
-
+    .item {
+      width: 100px;
+      height: 60px;
+      background-color: coral;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
